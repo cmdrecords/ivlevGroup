@@ -20,4 +20,72 @@
   border-radius: 5vh;
   background-repeat: no-repeat;
   background-size: 140%;
+}
+
+.company-text-top {
+  align-content: center;
+  text-align: start;
+  font-size: 4vw;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  font-weight: bold;
+  margin-left: 4.5%;
+  margin-top: 6.5%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.company-text-center {
+  align-content: center;
+  text-align: start;
+  font-size: 0.9vw;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgba(0, 0, 0, 0.562);
+  margin-left: 4.5%;
+  margin-top: 4%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.company-text-bottom {
+  width: 95%;
+  height: 10vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+  margin-left: 4.5%;
+  margin-top: 5%;
+}
+
+.text-bottom-garanty {
+  align-content: start;
+  text-align: start;
+  font-size: 1.1vw;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.text-bottom-more {
+  width: 100%;
+  height: 7vh;
+  display: block;
+  background-color: rgb(0, 241, 241);
+  align-content: center;
+  text-align: center;
+  font-size: 1.4vw;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgba(255, 255, 255, 0.911);
+  font-weight: bold;
+  border-radius: 2vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }/*# sourceMappingURL=about.css.map */
