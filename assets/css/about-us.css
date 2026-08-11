@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.about-us-inner {
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 23% 52% 23%;
+  grid-template-rows: 100%;
+  gap: 2vh;
+}
+
+.about-us-leftPicture {
+  border-radius: 4vh;
+  background-image: url();
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: red;
+}/*# sourceMappingURL=about-us.css.map */
