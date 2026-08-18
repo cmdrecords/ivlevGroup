@@ -1,0 +1,73 @@
+$color-accent-hover: rgb(221, 113, 51);
+$color-text-primary: rgb(112, 112, 114);
+$color-accent-active: rgb(191, 191, 193);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#services {
+  background-color: $color-accent-active;
+}
+
+.slider-inner {
+  width: 100%;
+  height: 80dvh;
+}
+
+.services-description-wrapper {
+  width: 100%;
+  height: 20%;
+  border: 2px solid red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-title {
+  font-size: 52px;
+  font-weight: bold;
+  font-family: "Arial Black"; /*заменить шрифт*/
+  text-transform: uppercase;
+}
+
+.arrows-wrapper {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 3%;
+}
+
+.arrows {
+  width: 25%;
+  height: 40%;
+  border-radius: 50%;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  align-content: center;
+  background-color: $color-accent-hover;
+  outline: none;
+  border: none;
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  border: 2px solid red;
+  border-radius: 20px;
+  min-width: 30%;
+  width: 30%;
+  height: 80%;
+}
