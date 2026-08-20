@@ -13,13 +13,14 @@
   grid-template-columns: repeat(2, 48.5%);
   grid-template-rows: 90.5%;
   gap: 0.2vh;
+  background-color: rgb(240, 233, 227);
 }
 
 .about-company-picture {
-  background-image: url(../images/background-hero.jpg);
+  background-image: url(../images/about.webp);
   border-radius: 5vh;
   background-repeat: no-repeat;
-  background-size: 140%;
+  background-size: 100%;
 }
 
 .company-text-top {
@@ -41,7 +42,7 @@
   text-align: start;
   font-size: 0.9vw;
   font-family: "Roboto Condensed", sans-serif;
-  color: rgba(0, 0, 0, 0.562);
+  color: rgb(114, 111, 109);
   margin-left: 4.5%;
   margin-top: 4%;
   -webkit-user-select: none;
@@ -77,12 +78,12 @@
   width: 100%;
   height: 7vh;
   display: block;
-  background-color: rgb(0, 241, 241);
+  background-color: rgb(255, 127, 52);
   align-content: center;
   text-align: center;
   font-size: 1.4vw;
   font-family: "Roboto Condensed", sans-serif;
-  color: rgba(255, 255, 255, 0.911);
+  color: white;
   font-weight: bold;
   border-radius: 2vh;
   -webkit-user-select: none;
