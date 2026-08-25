@@ -80,6 +80,7 @@
 .button-order:hover {
   background-color: rgb(231, 108, 37);
   color: rgb(230, 229, 229);
+  transform: scale(1.05);
 }
 
 .title-text-bottom {

@@ -71,6 +71,7 @@ $color-accent-active: rgb(240, 233, 227);
   &:hover {
     background-color: rgb(231, 108, 37);
     color: rgb(230, 229, 229);
+    transform: scale(1.05);
   }
 }
 .title-text-bottom {
