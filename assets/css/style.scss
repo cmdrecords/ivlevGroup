@@ -1,6 +1,14 @@
 $color-accent-hover: rgb(255, 127, 52);
 $color-text-primary: rgb(114, 111, 109);
 $color-accent-active: rgb(240, 233, 227);
+$main-font: "Unbounded";
+
+@font-face {
+  font-family: "Unbounded";
+  src: url(/assets/fonts/) format(woff2);
+  display: swap;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -36,7 +44,7 @@ $color-accent-active: rgb(240, 233, 227);
   align-content: start;
   text-align: start;
   font-size: 5vw;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: $main-font;
   margin-left: 4%;
   margin-top: 4.5%;
   grid-row: span 2;
