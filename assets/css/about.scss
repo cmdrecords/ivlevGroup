@@ -1,6 +1,14 @@
 $color-accent-hover: rgb(255, 127, 52);
 $color-text-primary: rgb(114, 111, 109);
 $color-accent-active: rgb(240, 233, 227);
+$main-font: "Unbounded";
+
+@font-face {
+  font-family: "Unbounded";
+  src: url(../fonts/Unbounded-VariableFont_wght.woff2) format(woff2);
+  display: swap;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -27,7 +35,7 @@ $color-accent-active: rgb(240, 233, 227);
   align-content: center;
   text-align: start;
   font-size: 4vw;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: $main-font;
   color: black;
   font-weight: bold;
   margin-left: 4.5%;
@@ -60,7 +68,7 @@ $color-accent-active: rgb(240, 233, 227);
   align-content: start;
   text-align: start;
   font-size: 1.1vw;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: $main-font;
   color: black;
   font-weight: bold;
   user-select: none;
@@ -72,10 +80,16 @@ $color-accent-active: rgb(240, 233, 227);
   background-color: $color-accent-hover;
   align-content: center;
   text-align: center;
-  font-size: 1.4vw;
-  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3vw;
+  font-family: $main-font;
   color: white;
   font-weight: bold;
   border-radius: 2vh;
   user-select: none;
+  transition-duration: 0.3s;
+  &:hover {
+    background-color: rgb(231, 108, 37);
+    color: rgb(230, 229, 229);
+    transform: scale(1.05);
+  }
 }

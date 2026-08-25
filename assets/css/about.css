@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Unbounded";
+  src: url(../fonts/Unbounded-VariableFont_wght.woff2) format(woff2);
+  display: swap;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -27,7 +32,7 @@
   align-content: center;
   text-align: start;
   font-size: 4vw;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Unbounded";
   color: black;
   font-weight: bold;
   margin-left: 4.5%;
@@ -66,7 +71,7 @@
   align-content: start;
   text-align: start;
   font-size: 1.1vw;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Unbounded";
   color: black;
   font-weight: bold;
   -webkit-user-select: none;
@@ -81,12 +86,18 @@
   background-color: rgb(255, 127, 52);
   align-content: center;
   text-align: center;
-  font-size: 1.4vw;
-  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3vw;
+  font-family: "Unbounded";
   color: white;
   font-weight: bold;
   border-radius: 2vh;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  transition-duration: 0.3s;
+}
+.text-bottom-more:hover {
+  background-color: rgb(231, 108, 37);
+  color: rgb(230, 229, 229);
+  transform: scale(1.05);
 }/*# sourceMappingURL=about.css.map */
