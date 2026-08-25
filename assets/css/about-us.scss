@@ -70,8 +70,16 @@ $color-accent-active: rgb(240, 233, 227);
   justify-content: center;
   align-content: center;
   grid-template-columns: 22%;
-  grid-template-rows: 80%;
-  margin-top: 4%;
+  grid-template-rows: 82%;
+  margin-top: 1%;
+}
+.icon-r {
+  background-image: url(../images/aboutUs-reliable.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-color: $color-accent-hover;
+  border-radius: 50%;
+  background-position: center;
 }
 .reliable-top-text {
   text-align: left;
@@ -108,8 +116,16 @@ $color-accent-active: rgb(240, 233, 227);
   justify-content: center;
   align-content: center;
   grid-template-columns: 22%;
-  grid-template-rows: 80%;
-  margin-top: 4%;
+  grid-template-rows: 82%;
+  margin-top: 1%;
+}
+.icon-g {
+  background-image: url(../images/aboutUs-garanty.webp);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-color: $color-accent-hover;
+  border-radius: 50%;
+  background-position: center;
 }
 .garanty-top-text {
   text-align: center;
