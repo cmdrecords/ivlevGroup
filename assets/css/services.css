@@ -6,7 +6,7 @@
 }
 
 #services {
-  background-color: rgb(191, 191, 193);
+  background-color: rgb(243, 233, 225);
 }
 
 .slider-inner {
@@ -26,8 +26,11 @@
 .services-title {
   font-size: 52px;
   font-weight: bold;
-  font-family: "Arial Black"; /*заменить шрифт*/
+  font-family: "Unbounded"; /*заменить шрифт*/
   text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .arrows-wrapper {
@@ -47,7 +50,7 @@
   color: white;
   text-align: center;
   align-content: center;
-  background-color: #ff7600;
+  background-color: rgb(255, 127, 52);
   outline: none;
   border: none;
 }
@@ -65,13 +68,13 @@
   margin: 0 0.5%;
   flex: 0 0 31%; /* Никогда не сожмется */
   height: 80%;
-  border: 2px solid red;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 20px;
   box-sizing: border-box;
   overflow: hidden;
 }
 .slide:hover .warm-floor-big-wrapper {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition-duration: 0.5s;
 }
 
@@ -88,10 +91,10 @@
 .warm-floor-big-description-wrapper {
   width: 100%;
   height: 40%;
-  border-top: 1px solid white;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.507);
   display: flex;
   align-items: end;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(20, 20, 20, 0.3);
 }
 
 /*Добавить эффект стекла*/
@@ -113,16 +116,22 @@
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .description-block-text .subtitle {
   font-size: 18px;
   color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .orange-decoration-block {
   width: 50%;
   height: 40%;
-  background-color: #ff7600;
+  background-color: rgb(255, 127, 52);
   position: relative;
   top: 30%;
 }
@@ -130,7 +139,7 @@
 .orange-decoration-circle {
   width: 50%;
   height: 50%;
-  background-color: #ff7600;
+  background-color: rgb(255, 127, 52);
   border-radius: 50%;
   z-index: 1;
   -o-object-fit: cover;
@@ -141,5 +150,5 @@
   position: relative;
   left: 20%;
   bottom: 15%;
-  box-shadow: -0.5px 0 8px black;
+  box-shadow: -0.5px 0 10px rgb(71, 49, 33);
 }/*# sourceMappingURL=services.css.map */
